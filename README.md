@@ -26,26 +26,26 @@ http://chromedriver.chromium.org/
 [MAIN]
 DRIVER_LOCATION = chromedriver.exe
 
->> This is the path of the chromedriver.exe file. Do not change it if the .exe file is in the main project folder.
+- This is the path of the chromedriver.exe file. Do not change it if the .exe file is in the main project folder.
 
 [CREDENTIALS]
 USERNAME = usename@email.com
 PASSWORD = password123
 
->> Add your flipkart credentials
+- Add your flipkart credentials
 
 [ORDER]
 CVV = 123
 ADDRESS = CNTCTC4582E2C20EB4B74BFAD64124
 PAYMENT = EMI_OPTIONS
 
->> Use below Payment keywords to select different options for payment
->> FULL / NET_OPTIONS / PHONEPE / COD / EMI_OPTIONS
->> To select address of delivery, right click and select inspect on delivery address on flipkart page, prior to running the script, and find the address ID as shown in below image. Keep only one address saved on flipkart and delete the rest, as multiple addresses may cause confusion to the script
-https://imgur.com/TahLmU8
+- Use below Payment keywords to select different options for payment
+- FULL / NET_OPTIONS / PHONEPE / COD / EMI_OPTIONS
+- To select address of delivery, right click and select inspect on delivery address on flipkart page, prior to running the script, and find the address ID as shown in below image. Keep only one address saved on flipkart and delete the rest, as multiple addresses may cause confusion to the script
+- https://imgur.com/TahLmU8
 
 [EMIOPTIONS]
 BANK = HDFC Bank Credit Card
 TENURE = 6
 
->> To select EMI option for payment. Only need to be changed if PAYMENT is selected as EMI_OPTIONS
+- To select EMI option for payment. Only need to be changed if PAYMENT is selected as EMI_OPTIONS
